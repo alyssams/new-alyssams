@@ -12,7 +12,8 @@ const TacoBell = () => {
             <div className="HeroGroup">
                 <h2>Taco Bell</h2>
                 <img src={TBMasthead} alt="" width="100%"></img>
-                <p><NavLink className="visitor" target="_blank" exact to="https://lookwhatwedid.co/vwgolfrrr-awards/" activeClassName="active">Visit Site</NavLink></p>
+                <p><a class="visitor" href="https://www.ta.co" target="_blank">Visit Site</a></p>
+
                 <p>Taco Bell came to Deutsch looking for a new way to deliver tasty tacos to the masses. The answer was to rebuild and redesign their site and include a robust feature that no other fast-food company had: an ordering system. I worked along side 3 other developers to make this happen. We worked closely with UX and design teams as the timeline for launch was tight. I not only worked on all global pieces like navigation and search but also helped by giving insight on user experience and design patterns.</p>
                 
                 <div className="grabs">

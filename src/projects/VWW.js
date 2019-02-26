@@ -10,7 +10,8 @@ const VWW = () => {
             <div className="HeroGroup">
                 <h2>VW Rebuild</h2>
                 <img src={VWWMasthead} alt="" width="100%"></img>
-                <p><NavLink className="visitor" target="_blank" exact to=" https://www.vw.com/inventory/" activeClassName="active">Visit Site</NavLink></p>
+                <p><a class="visitor" href="https://www.vw.com/inventory/" target="_blank">Visit Site</a></p>
+
                 <p>Volkswagen wanted a rebuild of their US website, vw.com and wanted something out of the box different than you would see on a car website. I was on a team of two to prototype the tool that has become Find A Match. This tool helps users find their perfect VW by giving them the ability to customize their desired car quickly and easily. </p>
                 <div className="grabs">
                     <img src={VWWGrab1} alt="" width="100%"></img>

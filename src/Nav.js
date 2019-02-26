@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {NavLink} from "react-router-dom";
 import './Nav.css';
 // import staticdata from './staticdata.json'
-import LogoWhite from '../src/assets/white-logo.svg'
+import LogoWhite from './assets/white-logo.svg'
 import VwGolf from './assets/vw_golf_r_.png'
 import Hulu from './assets/hulu.jpg'
 import TacoBell from './assets/Taco-Bell-Logo.png'
@@ -51,8 +51,7 @@ class Nav extends Component {
       <div className="menu">
         <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
           <div className= {this.state.isOpen ? 'open' : 'closed'}>
-            <NavLink onClick={() => this.toggleMenu()} className="logo" exact to="/" activeClassName="active"><img src={LogoWhite} alt="AMS"></img></NavLink> 
-            {/* <NavLink className={this.state.isOpen ? 'logo logoBlack' : 'logo'} exact to="/" activeClassName="active"></NavLink>  */}
+          <a className="logo" href="https://alyssams.com"><img src={LogoWhite} alt="AMS"></img></a>
             <input onClick={() => this.toggleMenu()} id="burger" type="checkbox" />
             <label htmlFor="burger">
               <span></span>
