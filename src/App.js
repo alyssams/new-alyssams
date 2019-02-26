@@ -5,7 +5,6 @@ import {
 } from "react-router-dom";
 import './App.css';
 import Home from './Home';
-import About from './About';
 import CAMilk from './projects/CAMilk';
 import Hulu from './projects/Hulu';
 import TacoBell from './projects/TacoBell';
@@ -35,7 +34,6 @@ class App extends Component {
             >
               <Switch location={location}>
                 <Route exact path="/" component={Home} />
-                <Route path="/about" component={About} />
                 <Route path="/projects/CAMilk" component={CAMilk} />
                 <Route path="/projects/Hulu" component={Hulu} />
                 <Route path="/projects/TacoBell" component={TacoBell} />

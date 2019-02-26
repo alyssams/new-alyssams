@@ -19,9 +19,7 @@ const VW = () => {
 
                 <p>We made news and won some awards. <a target="_blank" href="http://www.thefwa.com/site/unleash-your-rrrr">FWA Site of the Day</a>, <a target="_blank" href="http://www.adweek.com/adfreak/make-bunch-vrooming-and-squealing-car-noises-and-vw-will-turn-it-video-165861">AdWeek</a>, <a target="_blank" href="http://creativity-online.com/work/volkswagen-unleash-your-rrrr-michael-winslow-demo/42684">Creativity Online</a>, <a target="_blank" href="https://www.businessinsider.com/volkswagen-golf-r-voice-controlled-campaign-2015-7">Business Insider</a>, <a target="_blank" href="https://thenextweb.com/shareables/2015/07/15/vroom-vroom/">TNW</a>, <a target="_blank" href="https://www.fastcompany.com/3048595/you-control-this-new-vw-ad-by-making-your-own-ridiculous-car-noises">Fast Company</a></p>
                 
-                <div className="video-container">
-					<iframe src="https://player.vimeo.com/video/152452333?api=1" width="100%" height="600" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" id="player-2" class="video"></iframe>
-				</div>
+                
 
                 <div className="grabs">
                     <img src={VwGrab1} alt="" width="100%"></img>
@@ -29,6 +27,10 @@ const VW = () => {
                     <img src={VwGrab3} alt="" width="100%"></img>
                     <img src={VwGrab4} alt="" width="100%"></img>
                 </div>
+
+                <div className="video-container">
+					<iframe src="https://player.vimeo.com/video/152452333?api=1" width="100%" height="600" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" id="player-2" class="video"></iframe>
+				</div>
 
                 
                 

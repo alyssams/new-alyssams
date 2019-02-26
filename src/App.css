@@ -145,6 +145,10 @@ h2 {
     top: 40px;
 }
 
+.homepage {
+  overflow:hidden;
+}
+
 /* PROJECT */
 .project h2, h3, h4 {
   text-transform: uppercase;
@@ -318,9 +322,7 @@ $breakpoint-large: 60em; // 960px */
     color:white !important;
   }
 
-  .homepage {
-    overflow:hidden;
-  }
+  
 
   
 }
